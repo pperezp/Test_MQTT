@@ -10,9 +10,9 @@ public class TestMQTT {
 
     public static void main(String[] args) {
         String topic = "ese/man";
-        String content = "Mensaje de cliente";
+        String content = "Mensaje de cli";
         int qos = 2;
-        String broker = "tcp://localhost:1883";
+        String broker = "tcp://prez.duckdns.org:1883";
         String clientId = "12";
         MemoryPersistence persistence = new MemoryPersistence();
 

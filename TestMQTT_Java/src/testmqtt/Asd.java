@@ -22,7 +22,7 @@ class Asd implements MqttCallback {
 
     public Asd() {
         try {
-            MqttClient client = new MqttClient("tcp://localhost:1883", "1");
+            MqttClient client = new MqttClient("tcp://prez.duckdns.org:1883", "1");
             client.setCallback(this);
 
             client.connect();
